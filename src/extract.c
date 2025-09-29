@@ -31,8 +31,8 @@ char	*ft_extract_token(char *str, t_dat *d, int *quote_type)
 
 int	ft_get_token_end(char *str, int i)
 {
-	if (str[i] == '\'' || str[i] == '"')
-		return (ft_skip_quote(str, i));
+	// if (str[i] == '\'' || str[i] == '"')
+	// return (ft_skip_quote(str, i));
 	return (ft_skip_token(str, i));
 }
 
